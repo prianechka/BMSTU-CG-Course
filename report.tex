@@ -1,0 +1,22 @@
+\documentclass[a4paper,14pt, unknownkeysallowed]{extreport}
+
+\include{preambul}
+
+\begin{document}
+	\def\contentsname{Содержание}
+	%\include{title}
+	
+	\include{tableofcontents}
+	\include{introduce}
+	
+	\include{1-analyze}
+	\include{2-construct}
+	\include{3-technologic}
+	\include{4-research}
+	
+	\include{conclusion}
+	
+	\addcontentsline{toc}{chapter}{Список литературы}
+	\bibliographystyle{utf8gost705u} 
+	\bibliography{source}
+\end{document}
